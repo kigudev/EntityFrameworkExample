@@ -8,6 +8,7 @@ namespace MyBlog.Data
     {
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Category> Category { get; set; } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

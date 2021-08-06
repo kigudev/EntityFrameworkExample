@@ -15,8 +15,8 @@ namespace MyPetStore.Entities
         public string? Email { get; set; }
         public string? StateOrProvinceAbbr { get; set; }
         public string? Country { get; set; }
-        public int? PostalCode { get; set; }
 #nullable disable
+        public int? PostalCode { get; set; }
 
         // este se le llama propiedad de navegación
         public ICollection<Order> Orders { get; set; }

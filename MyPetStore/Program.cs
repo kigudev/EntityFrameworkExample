@@ -79,13 +79,6 @@ namespace MyPetStore
 
             if(huesito is Product) 
                 context.Remove(huesito);
-
-
-
-            context.Add(new Customer { 
-                FirstName = "Rene",
-                LastName = "Quin",
-            });
             
             
             context.SaveChanges();
